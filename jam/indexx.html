@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Jam Digital</title>
+  </head>
+  <body>
+    <div class="jam-digital">
+      <div class="lingkaran">
+        <div id="jam"></div>
+      </div>
+      <div class="lingkaran">
+        <div id="menit"></div>
+      </div>
+      <div class="lingkaran">
+        <div id="detik"></div>
+      </div>
+    </div>
+    <a href="index.html" class="jammm">Analog</a>
+    <script>
+      function wkatuu() {
+        const sekarang = new Date();
+
+        document.getElementById("jam").innerHTML = sekarang.getHours();
+        document.getElementById("menit").innerHTML = sekarang.getMinutes();
+        document.getElementById("detik").innerHTML = sekarang.getSeconds();
+      }
+      setInterval(wkatuu, 1000);
+      wkatuu();
+    </script>
+  </body>
+</html>
