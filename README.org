@@ -1,0 +1,36 @@
+#+TITLE: Jam-digital-dan-analog
+
+
+Membuat jam digital dan analog dengan Javascript
+
+Sebelum kita membuat jam digital dan analog, alangkah lebih baiknya kita pahami terlebih dahulu syntaxss Javascript
+
+
+* Syntaxs JavaScript
+
+*** Variable
+Variable adalah tempat untuk menyimpan data, dengan menyimpan data ke variable, kita bisa memangnggnakan lagi dengan menyebut nama variable nya.
+
+Contoh membuat variable
+#+BEGIN_SRC shell
+var a = 123;
+let b = "halo dunia";
+const c = true
+#+END_SRC
+
+*** Function
+Function merupakan satu blok program atua kode yang akan berjalan saat kita panggil.
+Contoh Membuat function
+#+BEGIN_SRC shell
+fanction tambah(a,b){
+    return a + b;
+}
+tambah(12,11);
+#+END_SRC
+
+*** DOM JavaScript
+DOM adalah menampilkan object dari srtuktur halaman web, serta bagian dari web API
+
+Lebih lanjut tentang DOM bisa kunjungi website  di bawah ini.
+
+[[https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model][https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model]]
